@@ -1,0 +1,8 @@
+name: custom
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: nandhacse/githubactions_custom_wf@main
